@@ -1,0 +1,112 @@
+{
+  "keyskills": [
+    {
+      "skill": "Web Development",
+      "skillDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et elementum dolor."
+    },
+    {
+      "skill": "Photography",
+      "skillDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et elementum dolor."
+    },
+    {
+      "skill": "Mobile Development",
+      "skillDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et elementum dolor."
+    }
+  ],
+  "skills": [
+    {
+      "skill": "JavaScript / Vue"
+    },
+    {
+      "skill": "PHP"
+    },
+    {
+      "skill": "Object oriented design"
+    },
+    {
+      "skill": "Design and implement database structures"
+    }
+  ],
+  "details": {
+    "image": "/img/profile.jpg",
+    "fullname": "Dani Dean",
+    "jobPosition": "Web Developer",
+    "location": "Somewhere",
+    "email": "me@email.com",
+    "telephone": "07907444555"
+  },
+  "education": [
+    {
+      "eduQualifications": "Bachelor of Science in Computing",
+      "eduYears": "2008 to 2011",
+      "eduLocation": "Farnborough College of Technology - Farnborough"
+    },
+    {
+      "eduQualifications": "A Level ICT, A Level Art and Design and AS Level Computing",
+      "eduLocation": "Farnborough Sixth Form College - Farnborough",
+      "eduYears": "2006 to 2008"
+    }
+  ],
+  "interests": [
+    {
+      "interest": "Video Games"
+    },
+    {
+      "interest": "Football"
+    },
+    {
+      "interest": "Photography"
+    }
+  ],
+  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et elementum dolor. Cras tempor molestie tellus nec convallis. Donec sollicitudin mauris vel lorem volutpat finibus. Etiam sagittis, eros id efficitur pellentesque, orci eros pellentesque purus, nec dictum lacus felis et ante.",
+  "awards": [
+    {
+      "award": "Award name - 2020"
+    },
+    {
+      "award": "Award name - 2020"
+    },
+    {
+      "award": "Award name - 2019"
+    }
+  ],
+  "socialMedia": [
+    {
+      "title": "Facebook",
+      "slug": "facebook",
+      "url": "#",
+      "type": "social"
+    },
+    {
+      "title": "Github",
+      "slug": "github",
+      "url": "#",
+      "type": "social"
+    },
+    {
+      "title": "Instagram",
+      "slug": "instagram",
+      "url": "#",
+      "type": "social"
+    }
+  ],
+  "document": "/img/functionalsample.pdf",
+  "workExperience": [
+    {
+      "jobTitle": "Job Title",
+      "jobLocation": "Fleet, Hampshire, UK",
+      "duration": "March 2016 to Present",
+      "jobDescription": "* Donec id elit non mi porta gravida at eget metus.\n* Maecenas sed diam eget risus varius blandit.\n* Donec id elit non mi porta gravida at eget metus.\n* Maecenas sed diam eget risus varius blandit."
+    },
+    {
+      "jobDescription": "* Donec id elit non mi porta gravida at eget metus.\n* Maecenas sed diam eget risus varius blandit.\n* Donec id elit non mi porta gravida at eget metus.\n* Maecenas sed diam eget risus varius blandit.",
+      "jobLocation": "Yateley, Hampshire, UK",
+      "duration": "October 2014 to October 2016",
+      "jobTitle": "Job Title"
+    }
+  ],
+  "seo": {
+    "title": "Demo CV by Dani Dean",
+    "description": "This is a demo CV website built with NuxtJS and Netlify CMS"
+  }
+}

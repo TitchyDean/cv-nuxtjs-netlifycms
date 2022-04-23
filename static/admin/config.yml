@@ -1,0 +1,84 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    files: 
+      - label: 'CV Page'
+        name: 'cvPage'
+        file: 'assets/content/pages/cv.json'
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            collapsed: true
+            summary: '{{fields.title}}: {{fields.description}}'
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Page Description", name: "description", widget: 'markdown' }
+          - label: "Details"
+            name: "details"
+            widget: "object"
+            collapsed: true
+            summary: 'All general details'
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Full Name", name: "fullname", widget: "string" }
+              - { label: "Job Position", name: "jobPosition", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Telephone", name: "telephone", widget: "string" }
+          - label: Social Media Links
+            name: 'socialMedia'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Icon Slug', name: 'slug', widget: "select", options: ["facebook", "instagram", "github", "twitter"] }
+              - { label: 'URL', name: 'url', widget: 'string' }
+          - label: "CV Document"
+            name: "document"
+            widget: "file"
+          - label: "About"
+            name: "about"
+            widget: "markdown"
+          - label: "Key Skills"
+            name: "keyskills"
+            widget: 'list'
+            fields:
+              - { label: 'Skill', name: 'skill', widget: 'string' }
+              - { label: 'Description', name: 'skillDesc', widget: 'markdown' }
+          - label: "Work Experience"
+            name: "workExperience"
+            widget: 'list'
+            fields:
+              - { label: 'Job Title', name: 'jobTitle', widget: 'string' }
+              - { label: 'Location', name: 'jobLocation', widget: 'string' }
+              - { label: 'Date Duration', name: 'duration', widget: 'string' }
+              - { label: 'Description', name: 'jobDescription', widget: 'markdown' }
+          - label: "Education"
+            name: "education"
+            widget: 'list'
+            fields:
+              - { label: 'Qualifications', name: 'eduQualifications', widget: 'string' }
+              - { label: 'Years Duration', name: 'eduYears', widget: 'string' }
+              - { label: 'Location', name: 'eduLocation', widget: 'string' }
+          - label: "Skills"
+            name: "skills"
+            widget: 'list'
+            fields:
+              - { label: 'Skill', name: 'skill', widget: 'string' }
+          - label: "Awards"
+            name: "awards"
+            widget: 'list'
+            fields:
+              - { label: 'Award', name: 'award', widget: 'string' }
+          - label: "Interests"
+            name: "interests"
+            widget: 'list'
+            fields:
+              - { label: 'Interest', name: 'interest', widget: 'string' }

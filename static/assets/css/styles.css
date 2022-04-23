@@ -1,0 +1,45 @@
+body {
+  /* background-image: url('/assets/images/memphis-colorful.png'); */
+  background-color: #28a745!important;
+  font-family: 'Poppins', sans-serif!important;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif!important;
+}
+.col-md-5.sticky-top {
+  align-self: flex-start;
+}
+@media (max-width: 575px) {
+  .col-md-5.sticky-top {
+    position: initial;
+  }
+}
+
+/* Cards */
+.card {
+  border-radius: 20px!important;
+}
+.card .img-thumbnail {
+  position: relative;
+  top: -60px;
+  border-radius: 20px!important;
+}
+.card .badge {
+  font-size: 18px;
+  border-radius: 20px;
+}
+.card .wavy-heading {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: #28a745;
+  text-decoration-thickness: from-font;
+}
+.card .card-body#skills .card-header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card .wavy-side {
+  border-left: double;
+  border-left-color: #28a745;
+  border-left-width: thick;
+}
